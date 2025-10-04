@@ -1,10 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+import Body from "./Components/utils/Body";
+
 function App() {
   return (
-    <div className="text-3xl font-bold text-green-800">
-      <p>Namste react</p>
+    <div>
+      <Body />;
     </div>
   );
 }
